@@ -1,0 +1,241 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#EEEEEE;
+    color: #333;
+}
+
+header {
+    background-color:#0F044C; /* Dark blue background */
+    color:#EEEEEE;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header .container-edu{
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    max-width: 1200px;
+    margin-left: 50px;
+
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color:#EEEEEE;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #0033aa; /* Slightly darker blue for hover effect */
+    border-radius: 5px;
+}
+
+main {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.intro-photo {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.intro-photo img {
+    width: 100%;
+    max-width: 200px; /* Decreased size */
+    border-radius: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.myintro{
+
+        color: #555555; /* Dark grey for better readability */
+        text-align: justify; /* Justify text */
+        margin: 0 20px; /* Margin for spacing */
+        line-height: 1.6; /* Line height for readability */
+    
+}
+.education{
+     color: #555555; /* Dark grey for better readability */
+        text-align: justify; /* Justify text */
+        margin: 0 20px; /* Margin for spacing */
+        line-height: 1.6; /* Line height for readability */
+    
+}
+.skill,
+.skills-category{
+    color: #3b3636; /* Dark grey for better readability */
+        text-align: justify; /* Justify text */
+        margin: 0 20px; /* Margin for spacing */
+        line-height: 1.6;
+        font-size: medium; /* Line height for readability */
+}
+.subskill{
+    color: #292626;
+    margin-left: 10px;
+}
+.name {
+    font-size: 1.5em; /* Increased font size for the name */
+    font-weight: bold; /* Optional: make the name bold */
+}
+.tools{
+    font-weight: bold;
+}
+.welcome{
+    color: rgb(46, 46, 87);
+}
+
+.contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background for the contact info section */
+    border: 1px solid #DDDDDD; /* Light grey border */
+    border-radius: 8px;
+    text-align: center; /* Center-align text */
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    color: #0F044C; /* Dark blue color for headings */
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #555555; /* Dark grey for better readability */
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #0F044C; /* Dark blue for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+header {
+    background-color: #0F044C; /* Dark blue background */
+    color: #EEEEEE;
+    padding: 20px 0;
+    position: relative; /* Ensure positioning context for the button */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #0033aa; /* Slightly darker blue for hover effect */
+    border-radius: 5px;
+}
+
+.back-to-home {
+    display: flex;
+    align-items: center;
+    background-color: #0033aa; /* Dark blue background for button */
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute; /* Position it relative to the header */
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically within the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-icon {
+    font-size: 24px; /* Size of the icon */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.back-to-home:hover {
+    background-color: #0033aa; /* Darker blue for hover effect */
+}
+
